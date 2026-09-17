@@ -1,0 +1,13 @@
+risk_id,domain,risk_statement,likelihood,impact,inherent_score,existing_control,residual_score,priority,owner,target_window,verification_evidence
+R-01,Identity,Two modeled users lack MFA enrollment,4,5,20,Partial enrollment,16,Critical,Owner/Office Manager,0-14 days,MFA roster shows 6 of 6 named users enrolled
+R-02,Identity,Daily-use owner account retains administrator role,4,5,20,No separate admin account evidenced,15,High,Owner,0-30 days,Role worksheet and separate admin procedure
+R-03,Endpoint,Two modeled devices have unknown encryption status,3,5,15,Inventory exists but incomplete,12,High,Office Manager,0-30 days,Device report confirms encryption or documented exception
+R-04,Endpoint,Three modeled devices are over 30 days behind updates,4,4,16,Ad hoc updates,12,High,Office Manager,0-30 days,Update compliance report shows supported patch level
+R-05,Resilience,Restore testing is not documented,3,5,15,Backup assumed present,12,High,Owner/Bookkeeper,0-30 days,Dated successful restore test record
+R-06,Data,Shared tax workspace access may be broader than job need,3,5,15,Group access used,10,High,Owner/Office Manager,15-45 days,Approved role/access matrix and access review sign-off
+R-07,Endpoint,One modeled device endpoint protection status is unverified,3,4,12,Protection on most devices,8,Medium,Office Manager,15-45 days,Protection console/export or documented exception
+R-08,Awareness,Training completion is not evidenced for all roles,3,4,12,Informal reminders,8,Medium,Office Manager,15-60 days,Completion roster and annual cadence
+R-09,Remote access,Remote owner-laptop access is not standardized,3,4,12,Informal process,8,Medium,Owner,15-60 days,Approved remote access standard and inventory
+R-10,Vendor,Vendor contacts and escalation terms are decentralized,2,4,8,Individual emails,6,Medium,Office Manager,30-60 days,Vendor register with owner/support/escalation fields
+R-11,Incident,No concise incident escalation card is evidenced,3,4,12,Verbal escalation,8,Medium,Owner,0-30 days,Approved call tree/tabletop acknowledgment
+R-12,Governance,Access review and acceptable-use policies remain draft,2,4,8,Draft language only,6,Medium,Owner,30-90 days,Human/legal reviewed policy approval record

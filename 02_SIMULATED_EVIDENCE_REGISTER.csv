@@ -1,0 +1,15 @@
+evidence_id,domain,artifact,simulated_observation,classification,source_type,review_status,retention_note
+E-001,Identity,MFA status export excerpt,6 named users modeled; 4 MFA-enrolled; 2 pending,Confidential-training,Mock CSV,Reviewed,No live directory data
+E-002,Identity,Admin role worksheet,Owner account modeled as daily-use administrator,Confidential-training,Interview note,Reviewed,No actual account name
+E-003,Identity,Shared mailbox worksheet,2 shared inboxes modeled with unclear delegated access review,Confidential-training,Interview note,Reviewed,No mail content
+E-004,Endpoint,Device inventory,8 Windows devices modeled; 6 encrypted; 2 status unknown,Confidential-training,Mock inventory,Reviewed,No serials or users
+E-005,Endpoint,Update status summary,3 devices modeled more than 30 days behind updates,Confidential-training,Mock dashboard excerpt,Reviewed,No endpoint telemetry
+E-006,Endpoint,Protection status summary,7 of 8 devices modeled with active endpoint protection; 1 unverified,Confidential-training,Mock dashboard excerpt,Reviewed,No product telemetry
+E-007,Data,Backup questionnaire,Cloud backup assumed but restore test not documented in prior 12 months,Confidential-training,Questionnaire,Reviewed,No backup configuration
+E-008,Data,Shared storage access map,Tax workspace modeled with broad group access pending role review,Confidential-training,Mock access matrix,Reviewed,No document names
+E-009,Remote access,Remote access statement,Owner laptop remote access method not standardized or documented,Confidential-training,Interview note,Reviewed,No remote endpoint
+E-010,Awareness,Training roster,Annual phishing-awareness training not evidenced for all modeled roles,Confidential-training,Mock roster,Reviewed,No staff identities
+E-011,Vendor,Vendor register,Tax software support and cloud storage vendor contacts not centralized,Confidential-training,Mock register,Reviewed,No vendor contracts
+E-012,Incident,Escalation card,No one-page incident escalation card evidenced,Confidential-training,Mock policy review,Reviewed,No incident data
+E-013,Governance,Policy index,Acceptable-use and access-review cadence marked draft/not approved,Confidential-training,Mock index,Reviewed,No policy provenance
+E-014,Resilience,Restore test record,No dated restore validation evidence available in scenario,Confidential-training,Mock record review,Reviewed,No real backups

@@ -1,0 +1,8 @@
+workstream,role,hours_estimated,hours_simulated_actual,rate_hypothesis_usd,amount_hypothesis_usd,status,notes
+Discovery and scope,Security lead,5,5,200,1000,Modeled,Interview prep + scope boundary
+Evidence normalization,Security lead,4,4,200,800,Modeled,Sanitized register only
+Risk assessment and roadmap,Security lead,6,6,200,1200,Modeled,12-item prioritization + 30/60/90 plan
+Verification design,Security lead,3,3,200,600,Modeled,No live verification performed
+Executive readout and handoff,Security lead,3,3,200,600,Modeled,One finite review round
+Project coordination and QA,Security lead,1.5,1.5,200,300,Modeled,Artifact QA and packaging
+TOTAL,,22.5,22.5,,4500,Internal hypothesis,Requires market validation; excludes third-party costs
